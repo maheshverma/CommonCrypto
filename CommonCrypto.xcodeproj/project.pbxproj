@@ -6,7 +6,12 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3D21E3F61F014E70003C5387 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D21E3F51F014E70003C5387 /* Crypto.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		3D21E3F51F014E70003C5387 /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
 		444A78C21D881914003983A2 /* CommonCrypto.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = CommonCrypto.xcconfig; sourceTree = "<group>"; };
 		444A78C31D881914003983A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		444A78C41D881914003983A2 /* iphoneos.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = iphoneos.modulemap; sourceTree = "<group>"; };
@@ -40,6 +45,7 @@
 		444A78BF1D881914003983A2 /* CommonCrypto */ = {
 			isa = PBXGroup;
 			children = (
+				3D21E3F51F014E70003C5387 /* Crypto.swift */,
 				444A78C31D881914003983A2 /* Info.plist */,
 				444A78C21D881914003983A2 /* CommonCrypto.xcconfig */,
 				444A78C41D881914003983A2 /* iphoneos.modulemap */,
@@ -97,6 +103,7 @@
 				TargetAttributes = {
 					444A78E81D881A1E003983A2 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -133,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D21E3F61F014E70003C5387 /* Crypto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
